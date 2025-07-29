@@ -1,12 +1,53 @@
-# React + Vite
+# Sign Your PDF - Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **mobile-friendly web application** that allows users to upload a PDF, send it to a mock server simulating digital signing, and display the signed PDF for download or viewing on both mobile and desktop devices.
 
-Currently, two official plugins are available:
+This project uses a modern frontend stack with **React, Vite, TypeScript and Tailwind CSS**, combined with a **Node.js Express backend** to mock the signing process by stamping a signature text on the PDF.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Upload PDF files directly from mobile or desktop devices.
+- Send PDF to a mock backend server that adds a visible "Signed by Mock Server" stamp.
+- View signed PDF in-browser with inline preview (desktop/tablet) or open in a new tab (mobile)
+- Download the signed PDF file
+- Responsive and accessible UI design optimised for phones, tablets, and desktops-
+- File removal option to select a different PDF before signing.
+- CORS-enabled backend for cross-origin requests during development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technology Stack
+
+- **Frontend:** React, Vite, TypeScript, Tailwind CSS
+- **Backend:** Node.js, Express, Multer, pdf-lib (for mock signing)
+- **Development:** ESModules, modern JS, responsive design.
+
+## Getting Started
+
+## Prerequisites
+
+- Node.js (v16 or later recommended)
+- npm or yarn
+
+## Installation
+
+1. Clone the repository
+2. Install backend dependencies
+3. Install frontend dependencies
+
+## Running the Application Locally
+
+### 1. Start the Mock Server
+### 2. Start the Frontend Development Server
+### 3. Access the App
+### 4. Important
+    - Ensure the frontend fetch URL matches the backend address.
+    - Backend has CORS enabled for all origins for development convenience
+
+## License
+
+This project is licensed under the [MIT License](LICENSE)
+
+## Contact / Support
+
+For questions, suggestions or issues, please contact:
+**Valentina Maraio**
+Email: valentina.maraio89@gmail.com
